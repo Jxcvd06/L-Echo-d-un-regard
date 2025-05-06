@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbf7ee;
+  width: 480px;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #72655a;
+  width: 100%;
+  height: 50px;
+}
+
+.link-nav {
+  border-right: 2px solid antiquewhite;
+}
+
+a {
+  font-family: "Lucida Sans", Verdana, sans-serif;
+  border-style: none;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+a:hover {
+  border-radius: 15px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.7;
+}
+
+main {
+  height: 500px;
+  overflow-y: auto;
+  padding-bottom: 200px;
+}
+.cardsPros {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95%;
+  background-color: #2c3e50;
+  border-radius: 25px;
+  margin-left: 10px;
+  box-shadow: 10px 7px 7px 5px #2c3e50;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Mettre en flex au lieu de position sauf pour le bouton et mettre du padding et de la marge pour modifier*/
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(36, 33, 33);
+}
+
+.nompro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: azure;
+}
+
+.specialite {
+  position: relative;
+  bottom: 30px;
+  font-size: medium;
+  color: azure;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
+  color: azure;
+}
+
+p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: azure;
+}
+
+.img-nom {
+  width: 110px;
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  color: azure;
+}
+
+.doctolib {
+  margin-left: 340px;
+  color: black;
+}
+
+.linkdocto {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  font-size: 12px;
+  padding: 12px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100px;
+  height: 20px;
+  border: 2px solid rgb(0, 65, 139);
+  background-color: #b9c5e4;
+  border-radius: 10px;
+  right: 20px;
+  bottom: 20px;
+}
+
+button:hover {
+  background-color: rgb(122, 161, 205);
+}
+
+#cmp {
+  width: 480px;
+  height: 100px;
+  position: fixed;
+  bottom: 150px;
+  background-color: #b9c5e4;
+  border-radius: 10px;
+}
+
+#titre {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+  width: 480px;
+}
+
+#logofooter {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: small;
+  margin-top: 50px;
+  color: azure;
+  background-color: #72655a;
+  font-style: italic;
+}
+
+.descriptionfooter {
+  height: 50px;
+}
